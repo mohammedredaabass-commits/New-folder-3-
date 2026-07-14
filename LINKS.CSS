@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 50px;
+    background:rgba(0,0,0,.6);
+    backdrop-filter:blur(10px);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.logo h2{
+    color:white;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#60a5fa;
+}
+
+/* ================= LINKS ================= */
+
+.links-container{
+    width:90%;
+    margin:120px auto 40px;
+}
+
+.links-container h1{
+    text-align:center;
+    color:#1d4ed8;
+    margin-bottom:40px;
+}
+
+.link-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    transition:.3s;
+}
+
+.link-card:hover{
+    transform:translateY(-5px);
+}
+
+.link-card h2{
+    color:#1d4ed8;
+    margin-bottom:10px;
+}
+
+.link-card p{
+    margin-bottom:20px;
+    color:#555;
+}
+
+.link-card button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:#1d4ed8;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.link-card button:hover{
+    background:#153eaa;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        padding:15px;
+        gap:15px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .links-container{
+        width:95%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+button:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+}
