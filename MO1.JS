@@ -19,6 +19,6 @@ loginForm.addEventListener("submit", function(e){
     localStorage.setItem("userName", username);
 
     // الانتقال للصفحة الرئيسية
-    window.location.href = "HOME.html";
+    window.location.href = "HOME.HTML";
 
 });
