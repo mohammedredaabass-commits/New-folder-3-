@@ -74,43 +74,43 @@ setInterval(updateClock,1000);
 
 document.getElementById("imagesBtn").onclick = function(){
 
-    window.location.href = "IMAGES.html";
+    window.location.href = "IMAGES.HTML";
 
 };
 
 document.getElementById("videosBtn").onclick = function(){
 
-    window.location.href = "VIDEOS.html";
+    window.location.href = "VIDEOS.HTML";
 
 };
 
 document.getElementById("linksBtn").onclick = function(){
 
-    window.location.href = "LINKS.html";
+    window.location.href = "LINKS.HTML";
 
 };
 
 document.getElementById("projectsBtn").onclick = function(){
 
-    window.location.href = "PROJECTS.html";
+    window.location.href = "PROJECTS.HTML";
 
 };
 
 document.getElementById("gamesBtn").onclick = function(){
 
-    window.location.href = "GAMES.html";
+    window.location.href = "GAMES.HTML";
 
 };
 
 document.getElementById("aboutBtn").onclick = function(){
 
-    window.location.href = "ABOUT.html";
+    window.location.href = "ABOUT.HTML";
 
 };
 
 document.getElementById("contactBtn").onclick = function(){
 
-    window.location.href = "CONTACT.html";
+    window.location.href = "CONTACT.HTML";
 
 };
 
